@@ -35,24 +35,8 @@ class Problem:
             
             
     def table(self):
-        print('|---------------------------------------------------------------------------------------------|')
-        print('|   계급  |   계급간격    |  도수 |  상대도수  |  누적도수  |  누적상대도수  |     계급값     |')
-        print('|---------------------------------------------------------------------------------------------|')
-        print('| 제1계급 |     {4}~{5}     |   {0}   |   {1}    |     {2}      |      {3}     |      {6}      |'.format(len(self.x1),len(self.x1)/len(self.x),len(self.x1),len(self.x1)/len(self.x), self.mark1, self.mark2, (self.mark1+self.mark2)/2))
-        print('|---------------------------------------------------------------------------------------------|')
-        print('| 제2계급 |     {4}~{5}     |   {0}   |   {1}    |     {2}     |      {3}      |      {6}      |'.format(len(self.x2),len(self.x2)/len(self.x),len(self.x1+self.x2),len(self.x1+self.x2)/len(self.x), self.mark2, self.mark3, (self.mark2+self.mark3)/2))
-        print('|---------------------------------------------------------------------------------------------|')
-        print('| 제3계급 |     {4}~{5}     |   {0}   |   {1}    |     {2}     |      {3}     |      {6}      |'.format(len(self.x3),len(self.x3)/len(self.x),len(self.x1+self.x2+self.x3),len(self.x1+self.x2+self.x3)/len(self.x), self.mark3, self.mark4, (self.mark3+self.mark4)/2))
-        print('|---------------------------------------------------------------------------------------------|')
-        print('| 제4계급 |     {4}~{5}     |   {0}  |    {1}    |     {2}     |      {3}     |      {6}      |'.format(len(self.x4),len(self.x4)/len(self.x),len(self.x1+self.x2+self.x3+self.x4),len(self.x1+self.x2+self.x3+self.x4)/len(self.x), self.mark4, self.mark5, (self.mark4+self.mark5)/2))
-        print('|---------------------------------------------------------------------------------------------|')
-        print('| 제5계급 |     {4}~{5}     |   {0}   |    {1}    |     {2}     |      {3}     |      {6}      |'.format(len(self.x5),len(self.x5)/len(self.x),len(self.x1+self.x2+self.x3+self.x4+self.x5),len(self.x1+self.x2+self.x3+self.x4+self.x5)/len(self.x), self.mark5, self.mark6, (self.mark5+self.mark6)/2))
-        print('|---------------------------------------------------------------------------------------------|')
-        print('| 제6계급 |     {4}~{5}     |   {0}   |   {1}    |     {2}     |       {3}      |      {6}      |'.format(len(self.x6),len(self.x6)/len(self.x),len(self.x1+self.x2+self.x3+self.x4+self.x5+self.x6),len(self.x1+self.x2+self.x3+self.x4+self.x5+self.x6)/len(self.x), self.mark6, self.mark7, (self.mark6+self.mark7)/2))
-        print('|---------------------------------------------------------------------------------------------|')
-        print('|   합계  |               |   {0}  |     1      |            |                |                |'.format(len(self.x)))
-        print('|---------------------------------------------------------------------------------------------|')
-    
+        print("don't exacts.")
+           
     def graph(self):
         longmax = max([len(self.x1),len(self.x2),len(self.x3),len(self.x4),len(self.x5),len(self.x6)])
         for i in range(longmax):
