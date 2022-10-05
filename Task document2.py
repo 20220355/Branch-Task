@@ -1,5 +1,5 @@
 def printMonth(start, max_days):
-    print('SUN MON THE WED THU FRI SAT')
+    print("KIT")
     print('-'*27)
     count = 0
     for i in range(start):

@@ -1,22 +1,8 @@
 import math
 class Problem:
     def __init__(self):    
-        self.x = [41,32,30,23,24,32,11,39,24,46,50,18,41,14,33,50,38,25,32,16,43,19,35,22,46,43,10,22,17,47,66,48,25,43,28,31,12,25,12,48]
-        self.x1 = []
-        self.x2 = []
-        self.x3 = []
-        self.x4 = []
-        self.x5 = []
-        self.x6 = []
-
-        self.mark= math.ceil((max(self.x)-min(self.x))/6)
-        self.mark1= min(self.x)
-        self.mark2= min(self.x) + self.mark
-        self.mark3= self.mark2 + self.mark
-        self.mark4= self.mark3 + self.mark
-        self.mark5= self.mark4 + self.mark
-        self.mark6= self.mark5 + self.mark
-        self.mark7= self.mark6 + self.mark
+       print("name")
+       print("a")
 
     def class6(self):
        print("Task KIT")
