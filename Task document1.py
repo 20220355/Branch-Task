@@ -19,20 +19,7 @@ class Problem:
         self.mark7= self.mark6 + self.mark
 
     def class6(self):
-        for i in range(len(self.x)):
-            if self.mark1 <= self.x[i] and self.x[i] <self. mark2:
-                self.x1.append(self.x[i])
-            elif self.x[i] >= self.mark2 and self.x[i] < self.mark3:
-                self.x2.append(self.x[i])
-            elif self.x[i] >= self.mark3 and self.x[i] < self.mark4:
-                self.x3.append(self.x[i])
-            elif self.x[i] >= self.mark4 and self.x[i] < self.mark5:
-                self.x4.append(self.x[i])
-            elif self.x[i] >= self.mark5 and self.x[i] < self.mark6:
-                self.x5.append(self.x[i])        
-            elif self.x[i] >= self.mark6 and self. x[i] < self.mark7:
-                self.x6.append(self.x[i])
-            
+       print("Task KIT")
             
     def table(self):
         print("don't exacts.")
